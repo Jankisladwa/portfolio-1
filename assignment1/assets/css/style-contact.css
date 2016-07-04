@@ -1,0 +1,157 @@
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	height: 80px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+h1 {
+	border: 1px solid #dddddd;
+	background-color: #4aaaa5;
+	width:250px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+	padding: 26px;
+	float: left;
+
+}
+ul.navigation {
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	float: right;
+}
+
+ul.navigation li {
+	height: auto;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	list-style-type: none;
+	margin: 30px 0 20px 0;
+	padding: 0px 17px 0px 17px;
+	display: inline;
+	float: left;
+	text-align: left;
+	border-right: 1px solid grey;
+}
+
+ul.navigation li a {
+	text-decoration: none;
+	color: grey;
+}
+
+#last {
+	border-right: none;
+	margin-right: 100px;
+}
+
+.container {
+	background-image: url("../images/cork-wallet.png");
+	height: 960px;
+	width: 100%;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px;
+	padding: 20px;
+	border-bottom: 3px solid #dddddd;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	float: center;
+	margin: auto;
+	padding: 20px;
+	border-bottom: 2px solid #dddddd;
+}
+
+#main-contact {
+	float: left;
+	width: 650px;
+	margin: 20px 20px 20px 100px;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	background-color: white;
+}
+
+form {
+	font-size: 120%;
+	color: grey;
+	margin: 0px 20px;
+	padding: 0px;
+}
+
+input.text{
+	width: 97%;
+	font-size: 16px;
+	border: 2px solid lightgrey;
+	height: 35px;
+	padding: 0 0 0 10px;
+	margin: 10px 0;
+}
+
+textarea {
+	width: 96%;
+	height: 190px;
+	font-size: 16px;
+	border: 2px solid lightgrey;
+	padding: 5px 10px;
+	margin: 10px 0;
+}
+
+input[type=submit] {
+	background-color: #4aaaac;
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	font-size: 20px;
+	margin: 2px 0 0 0;
+}
+
+#contact-info {
+	background-color: white;
+	float: left;
+	margin: 20px 0px 20px 0px;
+	width: 270px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+}
+
+ul#contact {
+	padding: 10px;
+	align: center;
+}
+
+ul#contact li {
+	list-style: none; 
+	display: flex;
+	width: auto;
+	float: left;
+	padding: 1px;
+	margin: 0;
+}
+
+.footer {
+	text-align: center;
+	background-color: #666666;
+	display: block;
+	clear: both;
+	border-top: 10px solid #4aaaa5;
+	padding: 30px;
+	color: white;
+}
