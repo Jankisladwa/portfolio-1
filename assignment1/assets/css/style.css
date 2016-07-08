@@ -94,9 +94,8 @@ h3 {
 }
 
 #bio-image {
-	/*float: left;*/
-	width: 400px;
-	/*height: 233px;*/
+	width: 414px;
+	height: 500px;
 	padding: 6px 10px;
 	display: block;
 	margin-left: auto;
@@ -156,9 +155,26 @@ ul#contact li {
 }
 
 @media screen and (max-width: 768px) {
-
+	body { width: 768px; }
+	#main-bio { width: 735px; }
+	#bio-image {
+		float: left;
+		width: 327px; 
+		height: auto;
+		margin: 0 0 0 2px; 
+		padding: 0 12px 5px 28px;
+		float: left;
+	}
+	#contact-info {
+		width: 735px;
+		margin: 19px 0px 33px 15px;
+	}
+	ul#contact li {
+		padding: 3px;
+	}
 }
 
 @media screen and (max-width: 640px) {
-
+	body { width: 640px; }
+	header { position: static; }
 }
