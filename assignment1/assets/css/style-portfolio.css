@@ -1,24 +1,28 @@
+* { 
+	box-sizing: border-box;
+}
 body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/cork-wallet.png");
+	width: 960px;
 }
 
 header {
 	height: 80px;
-	margin-left: 100px;
 	background-color: white;
 }
 
 h1 {
 	border: 1px solid #dddddd;
 	background-color: #4aaaa5;
-	width:250px;
+	width: 300px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: white;
 	text-align: center;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: bold;
-	margin: 0;
-	padding: 26px;
+	margin: 0 0 0 15px;
+	padding: 22px;
 	float: left;
 }
 
@@ -33,7 +37,7 @@ ul.navigation li {
 	height: auto;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	list-style-type: none;
-	margin: 30px 0 20px 0;
+	margin: 40px 0 20px 0;
 	padding: 0px 17px 0px 17px;
 	display: inline;
 	float: left;
@@ -48,20 +52,20 @@ ul.navigation li a {
 
 #last {
 	border-right: none;
-	margin-right: 100px;
+	margin-right: 20px;
 }
 
 .container {
-	background-image: url("../images/cork-wallet.png");
-	height: 960px;
-	width: auto;
+	height: auto;
+	width: 960px;
+	clear: both;
 }
 
 h2 {
 	color: #4aaaa5;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: left;
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: bold;
 	margin: 20px;
 	padding: 20px;
@@ -83,52 +87,53 @@ h3 {
 #menu {
 	float: left;
 	width: 650px;
-	margin: 20px 20px 20px 100px;
+	margin: 20px 10px 20px 15px;
 	border: 1px solid #dddddd;
 	padding: 20px;
 	background-color: white;
 }
 
-#placeholder{
-	margin-left: 30px;
+div.placeholder{
+	margin-left: 46px;
 	float: left;
-	width: 260px;
-	height: 196px;
-	padding: 10px;
+	width: 515px;
+	height: 350px;
+	padding: 0px;
+	margin-bottom: 60px;
 }
 
 .placeholder-image {
+	position: absolute;
 	float: left;
-	width: 260px;
+	width: 515px;
+	height: 350px;
 	padding: 0px;
-	position: relative;
+	margin: 0px 0px 60px 0px;
 }
 
 h4 {
+	position: absolute;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background-color: #4aaaa5;
 	color: white;
-	border: 1 solid #4aaaa5;
 	padding: 20px;
-	width: 220px;
-	position: absolute;
+	width: 515px;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 275px;
 }
 
 #contact-info {
 	background-color: white;
 	float: left;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 15px 20px 0px;
 	width: 270px;
 	padding: 20px;
 	border: 1px solid #dddddd;
 }
 
 ul#contact {
-	padding: 10px;
-	align: center;
+	padding: 19px;
 }
 
 ul#contact li {
@@ -148,4 +153,16 @@ ul#contact li {
 	border-top: 10px solid #4aaaa5;
 	padding: 30px;
 	color: white;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+	
 }
