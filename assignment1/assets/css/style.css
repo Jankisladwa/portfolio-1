@@ -4,7 +4,6 @@
 body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("../images/cork-wallet.png");
-	width: 960px;
 }
 
 header {
@@ -16,14 +15,14 @@ header {
 h1 {
 	border: 1px solid #dddddd;
 	background-color: #4aaaa5;
-	width: 300px;
+	width: 250px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: white;
 	text-align: center;
-	font-size: 35px;
+	font-size: 28px;
 	font-weight: bold;
-	margin: 0 0 0 15px;
-	padding: 22px;
+	margin: 0 0 0 100px;
+	padding: 26px;
 	float: left;
 }
 
@@ -53,12 +52,12 @@ ul.navigation li a {
 
 #last {
 	border-right: none;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 
 .container {
 	height: auto;
-	width: 960px;
+	width: 1200px;
 	clear: both;
 }
 
@@ -66,7 +65,7 @@ h2 {
 	color: #4aaaa5;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: left;
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: bold;
 	margin: 20px;
 	padding: 20px;
@@ -87,19 +86,18 @@ h3 {
 #main-bio {
 	float: left;
 	width: 650px;
-	margin: 20px 10px 20px 15px;
+	margin: 20px 20px 20px 100px;
 	border: 1px solid #dddddd;
 	padding: 20px;
 	background-color: white;
 }
 
 #bio-image {
-	width: 414px;
-	height: 500px;
+	margin-left: 20px;
+	float: left;
+	width: 200px;
+	height: 233px;
 	padding: 6px 10px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 span.timeline{
@@ -150,31 +148,80 @@ ul#contact li {
 }
 
 @media screen and (max-width: 980px) {
-	
-
+	body{width: 960px;}
+	h1 {width: 300px; font-size: 35px; margin: 0 0 0 15px; padding: 22px;}
+	ul.navigation li {margin: 40px 0 20px 0; }
+	#last {margin-right: 20px;}
+	.container {width: 960px;}
+	h2 {font-size: 32px; margin: 10px 0 20px 20px;}
+	#main-bio{margin: 20px 10px 20px 15px;}
+	#bio-image {
+		width: 414px;
+		height: 500px;
+		padding: 6px 10px;
+		display: inline;
+		margin: 0 0 0 95px;
+	}
+	p.aboutme { clear: both; }
 }
 
 @media screen and (max-width: 768px) {
 	body { width: 768px; }
-	#main-bio { width: 735px; }
+	#main-bio { 
+		width: 735px;
+		margin: 20px 10px 20px 15px;
+	}	
+	ul#contact li {
+		padding: 3px;
+	}
+	p.aboutme{clear: none;}
+	h3 {
+		text-align: left;
+		font-size:28px;
+	}
 	#bio-image {
-		float: left;
+
 		width: 327px; 
 		height: auto;
 		margin: 0 0 0 2px; 
 		padding: 0 12px 5px 28px;
-		float: left;
 	}
 	#contact-info {
 		width: 735px;
 		margin: 19px 0px 33px 15px;
 	}
-	ul#contact li {
-		padding: 3px;
-	}
 }
 
 @media screen and (max-width: 640px) {
-	body { width: 640px; }
 	header { position: static; }
+	body { width: 640px; }
+	h1 {
+		width: 640px; 
+		font-size: 60px;
+		margin: 0;
+	}
+	ul.navigation {
+		clear: both; 
+		background-color: white; 
+		float: none;
+		font-size: 30px;
+	}
+	ul.navigation li {
+		margin: 27px 7px 28px 38px;
+		padding-right: 61px;
+		padding-left: 11px;
+	}
+	#last {
+		margin-right: 0;
+	}
+	#main-bio {width: 610px;}
+	#contact-info {width: 610px;}
+	#bio-image {
+		width: 445px; 
+		height: auto;
+		margin: 0 0 0 2px; 
+		padding: 0 12px 5px 117px;
+	}
+	p.aboutme { clear: both; }
+	h3 {font-size: 26px;}
 }
